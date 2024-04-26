@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+        id="equipment_rental_menu_root"
+        name="Equipment Rental"
+        web_icon="sale_equipment_rental,static/description/icon.png"
+        groups="sales_team.group_sale_salesman">
+        <menuitem id="menu_dashboard_equipment_rental" name="Dashboard" action="equipment_rental_order_action" sequence="1"/>
+        <menuitem id="menu_product_equipment_rental" name="Products" action="equipment_rental_product_template_action" sequence="2"/>
+    </menuitem>
+</odoo>
